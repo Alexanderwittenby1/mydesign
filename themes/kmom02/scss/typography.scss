@@ -1,0 +1,21 @@
+p {
+    font-family: $main-font;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $header-font;
+}
+
+
+.nav a {
+    font-size: $nav-size;
+    text-decoration: $nav-text-decoration;
+    font-family: $header-font;
+}
+
+.nav a:hover {
+    
+    border-bottom: $nav-hover-border;
+}

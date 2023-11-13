@@ -1,14 +1,14 @@
 <div class="footer">
     <div>
         <p>
-            <a href = https://github.com/Alexanderwittenby1/mydesign>Länk till mitt github repo </a>
+            <a href="https://github.com/Alexanderwittenby1/mydesign">Länk till mitt github repo</a>
         </p>
     </div>
     <div class="social">
         <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
         {% for social in pages["_meta"].meta.social %}
         <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-            <i class="{{ social.icon }}" aria-hidden="true"></i>
+            <i class="fab fa-github" aria-hidden="true"></i>
             <span class="sr-only">{{ social.title }}</span>
         </a>
         {% endfor %}
@@ -18,3 +18,4 @@
 <script src="{{ theme_url }}/../shared//js/modernizr-3.3.1-custom.min.js" type="text/javascript"></script>
 <script src="{{ theme_url }}/../shared//js/utils.js" type="text/javascript"></script>
 <script src="{{ theme_url }}/../shared//js/responsive-navbar.js" type="text/javascript"></script>
+

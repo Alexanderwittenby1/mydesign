@@ -110,11 +110,7 @@ p {
 
 /* Typografy */
 
-body {
-    font-family: sans-serif;
-    line-height: 1.4;
-    color: #444;
-}
+
 
 p, td, th, li, dd {
     text-align: justify;
