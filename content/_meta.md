@@ -2,7 +2,7 @@
 Logo: image/thumb.png
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
-      icon: github
+  - title: Länk till sidans github repo.
+    url: https://github.com/Alexanderwittenby1/mydesign
+    icon: fab fa-github
 ---
