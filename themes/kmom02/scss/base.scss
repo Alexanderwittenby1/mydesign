@@ -8,12 +8,7 @@ body {
     display: $header;
 }
 
-.middle {
-    display: $img-display;
-    margin-left: $margin-left;
-    margin-right: $margin-right;
-    width: $width;
-}
+
 
 /* Footer */
 
@@ -39,4 +34,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+}
+
+.main {
+
+    width: 64em;
+    margin: 0 auto;
 }
