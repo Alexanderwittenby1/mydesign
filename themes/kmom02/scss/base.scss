@@ -1,11 +1,12 @@
 body {
-    background: $backround-color;
+    background-color: $background-color
 }
 
 
 .header {
     justify-content:$justify-content ;
     display: $header;
+    
 }
 
 
@@ -40,4 +41,11 @@ body {
 
     width: 64em;
     margin: 0 auto;
+}
+
+.social a {
+
+    text-decoration: none;
+
+
 }
