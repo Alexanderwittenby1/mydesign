@@ -1,15 +1,34 @@
 body {
-    background-color: $background-color
+    background: #c2dfe3;
 }
-
 
 .header {
     justify-content:$justify-content ;
     display: $header;
+    background-color: #9db4c0;
+    border-bottom: 4px solid #253237;
     
 }
 
+.title {
+    padding-top: 3rem;
+    margin:0 auto;
+}
 
+.title a {
+    text-decoration: none;
+}
+
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav{
+    font-size: 48px;
+    text-align: center;
+}
 
 /* Footer */
 
@@ -38,8 +57,7 @@ body {
 }
 
 .main {
-
-    width: 64em;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -48,4 +66,22 @@ body {
     text-decoration: none;
 
 
+}
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

@@ -14,14 +14,14 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'code';
 @import 'technologies';
 @import 'technology';
+@import 'gallery';
 
-
-.main{
-    color: white;
-}
-.body{
+body{
+    background: rgb(00, 00, 08);
     color:white;
 }
+
+
 
 .box-small,.box-medium,.box-wide {
     border: 3px solid #ada3a3;
@@ -34,4 +34,26 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     &:hover {
         background-color: #cec6c6;
     }
+}
+
+.gallery {
+
+    box-shadow: 10px 5px 5px rgb(255, 187, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    grid-gap: 1rem 2rem;
+    background: linear-gradient(rgb(236, 123, 2), rgb(252, 176, 0));
+    padding: 1rem 1rem;
+}
+
+.h1-big{
+    font-size:48px;
+    text-align: center;
+}
+
+.img-container:hover{
+    transform:scale(0.98, 0.98);
+    transition: transform 0.2s ease-in-out;
+    border: 5px solid rgb(0, 0, 0);
 }
