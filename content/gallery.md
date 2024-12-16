@@ -10,8 +10,8 @@ Template: gallery
     <div class="img-container">
         <picture>
             <a href="%base_url%/image/examen.png">
-            <source media="(max-width: 750px)" srcset="%base_url%/image/examen.png?h=400&w=400&crop-to-fit"/>
-            <source media="(min-width: 751px)" srcset="%base_url%/image/examen.png?w=460&q=50"/>
+            <source media="(max-width: 750px)" srcset="%base_url%/image/examen.png?h=300&w=300&crop-to-fit"/>
+            <source media="(min-width: 751px)" srcset="%base_url%/image/examen.png?w=360&&h=300&q=50"/>
             <img class="gallery-pic" src="%base_url%/image/examen.png" alt="picture">
         </picture>
     </div>

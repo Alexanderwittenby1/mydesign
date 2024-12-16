@@ -18,10 +18,25 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 body{
     background: rgb(00, 00, 08);
-    color:white;
+    color:rgb(255, 255, 255);
 }
 
+.nav {
+    background-color: #253237;
+}
 
+.nav a {
+    color:white;
+}
+.header {
+    background:#253237;
+    border-bottom: 4px solid rgb(236, 123, 2);
+}
+
+.footer {
+    background: #253237;
+    border-bottom: 2px solid rgb(236, 123, 2);
+}
 
 .box-small,.box-medium,.box-wide {
     border: 3px solid #ada3a3;
@@ -44,7 +59,7 @@ body{
     justify-content: center;
     grid-gap: 1rem 2rem;
     background: linear-gradient(rgb(236, 123, 2), rgb(252, 176, 0));
-    padding: 1rem 1rem;
+    padding: 1rem;
 }
 
 .h1-big{
